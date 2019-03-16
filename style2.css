@@ -1,0 +1,124 @@
+body {
+    /*margin: 40px 160px 160px 160px;*/
+    margin: 3% 9% 3% 9%;
+    background-color: #fff;
+    font-family: 'Playfair Display', serif;
+    /* //border:9px dotted #72601b; */
+    background-image: url(fundo.jpg);
+    background-size: 200px;
+    background-attachment: fixed; /* background fica fixo no scroll*/
+}
+
+
+.wrapper {
+    width: 100%;
+    max-width: auto; /*/perguntar o que e isso... */
+    margin: 0 auto; /* que?  apareceu agora, o que era? wtf*/
+}
+
+
+#header-img{
+    display: block;
+    width: 100%;
+    margin: 0;
+}
+
+/*#logoTest {
+    width: 100%;
+    min-height: 500px;
+    max-height: 1500px;
+    background-image: url(melissa_header.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: block;
+}*/
+
+.main-content {
+    margin: 10px 0 10px 0;
+    padding: 30px;
+    background-color: antiquewhite; 
+}
+
+nav {
+    /* //display: flex;
+    //border: 2px solid #1C2904; */
+    background: #848c57;
+}
+
+nav ul {
+    padding: 0;
+    list-style-type: none;
+    font-size: 28px;
+    /* margin-top: 0; passei aqui e deixei margin-top: 0 pra que o menu fique colado na imagem do header     */
+    margin: 0;  
+}
+
+nav a {
+    text-decoration: none;
+    /* //text-align: center; */
+    color: #fff;
+    display: block;
+    padding: 9px;
+}
+
+nav a:hover {
+    color: #630;
+}
+
+main{
+    /* //margin: 25px; */
+    background: #fff;
+}
+
+h2,nav,.foot{
+    font-family: 'Amatic SC', cursive;
+}
+
+h1 {
+    /* color: #AF5705; esse fdp aqui ta fodendo lol */
+    text-align: center;
+    font-size: 58px;
+    /* //color: #BB8D90;
+    border: 1px solid #000000; */
+    color: #630;
+}
+
+h2 {
+    margin-bottom: 0px;
+    font-size: 35px;
+    /*color: #402A03;*/
+    /*color: #72601b;
+    color: #402A03;*/
+    /* color: #a37c19; */
+    /* color: #AF5705; */
+    color: #630;
+}
+
+p {
+    line-height: 25px;
+    text-align: justify;
+    /* color: #391C08; */
+    /* color: #4F2523; */
+}
+
+.foot {
+    display: block;
+    background-color: #848c57;
+    font-size: 28px;
+    text-align: center; 
+    padding: 12px;
+    color: #fff;
+}
+/* flex styles */
+
+@media screen and (min-width: 768px){
+    nav ul {
+        display: flex;
+        justify-content: none;
+    }
+
+    nav li {
+        flex: 1 1 0;
+    }
+}

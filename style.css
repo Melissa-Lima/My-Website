@@ -1,0 +1,355 @@
+body {
+    /*margin: 40px 160px 160px 160px;*/
+    margin: 3% 9% 3% 9%; 
+    background-color: #fff;
+    font-family: 'Playfair Display', serif;
+    /* //border:9px dotted #72601b; */
+}
+/*
+.ახ ტურფავ ტურფავ
+ნუთუ ვერა გრძნობ ოelissa
+გადარეული დავიარები
+*/ /*nunca entendi essa bosta de padding... tem margin, padding e um outro lá ... :/ sim a "caixinha".. hmm */
+/* é que essas porcentagen.... hmm
+top right bottom left, sim. tá certo igual, indepdendente
+saquei
+chegou a mudar agora com o padding?
+padding é o conteúdo de dentro
+imagina que num link, se tu colocar margin, tu tá definindo a distancia
+dele pros outros
+mas o padding, tu define quanto de espaço a mais por dentro ele vai ter
+eu manjo nada dos atalhos :< lol nao wtf eu dei ctrl + e deu zoom '-' aahhdsauheuh jaguar aaaaaaaaaaaaa hahahahah  idiota 
+pra comentar linha no vs code é Ctrl + ;
+fica mais fácil pra tu
+temo aqui pra ensinar haha
+
+AFF
+é Ctrl
+e depois ;
+meu jesus
+*/
+/* ai idiota, aqui é ctrl + / hurr faz mais sentido que seu ponto vírgula tosco _|_  jaguar
+vai, vamo, mudar o padding da imagem ou do body?
+mudou o que de onde
+ah ok
+mudou bufa nenhuma :/
+wtf que que ce tpa fazendo '-'
+tá com doença lol só pode
+o cara tá de ressaca aindatem sim
+olha como tá loucão
+se não tá na ressaca tá bêbado então
+simples
+vai, meu
+mudou bufa
+eu te mandei... era pra ficar compridinho... vai no fb
+lol
+o bango tá tipo zoom mínimo e tá gigante
+tá weird
+olhe pro lado esquerdo, voce ve que o galho ta cortado em comparação com a original...
+:/
+to ficando desanimada
+hm.... eu não faco ideia do que mudar
+minha imagem ta 3000x1000 *
+*/
+/*WUT ah whatever
+vamos tentar o padding
+nope...  n quer ir n '.'
+que saco isso... eu queria aprender o que ta acontecendo....
+antes por exemplo, quando eu diminuia a tela (A TELA/JANELA não o zoom, ficava o logão
+agora vocÇe fez alguma coisa que não fica o logão mais :/
+n sei se é o cover....
+ué
+eu gostei mais de como tá agora mas queria saber o que foi feito pra mudar isso :/
+n tem como eu mostrar agora que ce editou aí, mas olha como tá agora
+ué, do notebook? '.'
+eu diminui a janela, jaguar
+acho que é 720
+antes ficava o logão :/
+deixa eu ver se consigo mostrar
+não, não é o contain nem cover....
+outra coisa que voce mudou
+a margem seria de quem? hmmm class wrapper?
+nao sei como voltar pro logão agora :/
+tem como deixar tosco de novo pra eu ver/? lol
+ué, agora não mais?
+bota como tava antes*/
+.wrapper {
+    width: 100%;
+    max-width: auto; /*/perguntar o que e isso... */
+    margin: 0 auto; /* que?  apareceu agora, o que era? wtf*/
+    /* //border: 1px solid #FFF;  //aqui? mas eu inspecionei e ficou assim: (facebook) */
+    /* hm viu que o espaco tá no próprio header lá ? eu dei inspect na imagem  hm mudou nada*/
+}
+/* eita ferro | do body deixa, tem nada a ver mesmo | vamos colocar o header sem o nav de volta, não tem galho
+vamos voltar pra cá
+eu tinha colocado um margin-bottom: 0 lá embaixo sem querer, acho
+no nav ul
+eu apaguei agora
+que merda
+tá muito ruim? eu vou só mexer mais uma coisinha então
+provavelmente porque ta com uma altura grande o contain lá, com o padding
+me manda um print rapidinho inspecionando o a id=logo
+o padding-bottom: 43%, lembra?
+vamos ter que passar mais um tempinho ajustando isso, acho mel. quer descansar e continuamos amanhã de noite?
+ta
+mas valeu já, avançamos
+agora é resolvero utro problema :P
+
+que padding....
+
+sim... aplique 43 só nas laterais
+vou descansar então... muita dor...
+sim, obg vai pro fb
+ eu nao entendi como o coisa foi parar la em cima
+
+ :/ 
+ to cansadinha...
+ minhas costas tão doendo muito
+ta e agora...
+nao to entendendo essa bosta
+tá mo espação em cima também
+
+mas faz sentido o nav ser dentro do header...
+    o que eu to achando estranho é que agora o nav ta dentro do header, mas ele continua colado na classe "texto"
+    ta foda porque eu comentei o margin lá do body e tirou os espaços laterais apenas, os de cima continua gigANTE
+*/
+
+/* me mostra como ficou depois 
+chupa que é de uva
+kkkkkkkkkkkkkkkkkkkkk
+ok, é a altura que tá ficando diferente. grande demais, parece
+vou dar mais uma mexida aqui no meu e ver
+logão como?
+acho que tá rolando uma diferença de resolução nossa... quanto é tua resolução aí?
+isso
+o meu é 1360x768
+o "contain" nesse caso, ele acompanha 
+quer que volte para como era antes com as alturas?
+tá
+ok ok ok ok ok ok ok ok ok ok ok
+acredito que por antes ser uma altura e largura definidos, ficada daquele jeitão tosco e grande
+a gente tava mexendo direto no tamanho do link que tá com o id #logo, mas não no fundo em si
+agora a gente só tá usando o padding-bottom pegando uma porcentagem pra variar conforme a tela
+daí é menos coisa pra 
+ok
+
+
+deixa o textao lol
+
+>indepdendente
+que que ce tentou escrever aqui lolahuerhaeuhier sempre, fi 
+mas o que voce mudou?
+parece que foi, n parece? hmm
+*/
+/* PELO AMOR DE DEUS kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk eu to chorando muito aqui fala serio q q ta aconteseno */
+/* ta perai */
+/* #logo {
+    display: block;
+    padding-bottom: 43%; // <<<<< de 40% -> 43% // que isso 
+    margin-bottom: 0px; 
+    background-image: url(melissa_header.png);
+    background-repeat: no-repeat;
+    background-size: contain; // de cover -> contain 
+    background-position: center center; // whaaat
+ } */ 
+/* n'ao era isso aqui??????????????????????????????????????????????????????????????????????????
+ eu lembrava que tinha só o padding-bottom mesmo, é esse cidadão aqui sim
+ apaguei coisa nenhuma a gente que fala demais e enterrou o esquema haha */
+ /* //mas que caceta auerhgaurhe eu disse muito podre e eu nao queria apagar os coments, cry */
+ /* wuuuut wtf que bagulho quebrado eu to dando ctrl z aqui e fica desfazendo suas coisas zoadaço tinha que ser microsoft
+logico, fi, para de ser pleb
+::man eu queria botar o bang tosco de novo  tem vários cments espalhados, daí cagou tudo lol egyigrfayuergvagyurhr desisto dessa porra man to rindo que nem uma idiota, não mano, eu só queria conversar qqq */
+/* ANTES: isso
+hahaha a gente vai melhorando aos pouqu
+vai lá, linuxeza
+toma aí qq ta faznedo hahahahahahahatu quer comentar o bloco só? É DOIDA QUEBROU TUDOO hahahahahahahahahah
+pelamenor de deus
+ok what
+hmmm min e max height/width? to rindo aqui, que lixão né HIAHEURHAEURHE perai
+vamos voltar pra cá então, descomentando esse... acho que isso a gente consegue
+era só o que faltava
+tenta de novo lá, vamos ver. não era pra ter 
+o center center é só pra dizer que tu quer que a imagem fique no centro vertical e horizontal
+tu podia botar top left, bottom right, center top... fica a teu criterio
+tem
+ que ter o para de me sequestrar
+ tem que ter o display block porque tu tá botando o fundo num link
+ o link por padrão não tem 
+serio que ta aparecendo no seu???? wat
+to nervouser..... 
+sim, tá aparecendo a imagem pequena lol
+nope... era um logão :/ ficava um quadradçao....tá
+pera, acho que fizemos bosta, não?
+
+
+
+
+
+eu to tentando escrever, caraio
+por que man, a img continua sem aparecer wtf
+mas essa bufa ta fazend diferença nenhuma
+como que no meu aparece e no teu não, jesus
+dá um inspecionar ali
+foca no a id="logo" pra eu ver o que ele tá computando no css
+n'ao sei mais o que poderia ser. mudou alguma coisa pra ti?
+ta, agora aumenta a tela
+era assim que tava antes?
+eu vou voltar no tempo aqui no meu local
+alo? tem alguem ai?
+toc toc toc
+agora sim quadradao!! ok, conseguimos voltar no tempo com sucesso
+e agora? sim EI MAP VOFZ MADAAAA
+calunia
+sem provas não há crime
+E DAI vo chamar meus a
+tenho aqui, calma
+
+
+agora fodeu
+porque eu nao lembro como tava... foi voce que codou
+so lembro que nao tinha esse bang de max height/width :/
+devogados cagou sim, pois tá cover ali ao invez de CONTAIN, it just goes to show... shrug, temmprovas sim se eu der ctrz adoidado aqui....
+ta
+ok
+prosseguindo
+a gente ia mudar o amrgin lá, o espação...
+facebook...
+tava de boa, daí eu quis ver o quadradao... cade o codigo? achei que tava comentaodo mas não to achando :/
+voce fez bosta, acho, reescreveru o comentado, vei '.' nao era pra ter esse min-height, lembra?tá bosta, mandei imsg no fb
+era isso que eu queria mostrar lol
+what
+  displaahuehuaeh comassim
+nossa continua sem aparecer... que que é esse center center
+acho que tem o codigo no chat */
+/* //hm fodeu a img n aparece hmmm continua sem aparecer a imagem que weird */
+#logo {
+    display: block;
+    padding-bottom: 30%; /* // <<<<< de 40% -> 43%  que isso | a img n quer aparecer */ 
+    margin-bottom: 0px; 
+    background-image: url(melissa_header_smaller.png);
+    background-repeat: no-repeat;
+    background-size: contain;  /* // de cover -> contain  */
+    background-position: center center; /* // whaaat */ 
+}
+/* eram os comentários cagando só, o css se perdeu. tem que ser comentário só com barra asterisco
+certo. vamos lá
+tá, vamos por partes. como tá a altura rolando quando tu inspeciona aparece o que de altura?
+isso
+manda a foto
+tenta de novo. botei o nav pra dentro do header
+mudou nada, só eu inventando moda
+viu? o ul tá com margin, tem que mexer nisso. será que ele não tá pegando desse normalize?
+é o ul
+vem aqui caraio embaixo
+hm o ul...
+não é o ul?
+...
+hmm...
+    hm...
+    nao estou entendo, mostra que o espaço tá na imagem, sabe
+    id logo
+    mas de onde ele pega esse espação?
+    o body que é o pai dele...
+    '-'
+    pq ce colocou o nav dentro do ehader
+    nao entendi o que isso iria mudar
+
+hm
+mas inspecionar o que? o header? '.' header ou id="logo"? porque no header aparece nenhuma config de altura...  
+
+agora coisar o espação... ¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
+*/
+/* AINDA MAIS ANTES DE ANTES ->>>> lol
+#logo {
+    width: 100%;
+    min-height: 500px;
+    max-height: 1500px;
+    background-image: url(melissa_header.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: block;
+} */
+
+.texto {
+    padding: 30px;
+    background-color: #848c57;
+}
+
+nav {
+    /* //display: flex;
+    //border: 2px solid #1C2904; */
+    background: #848c57;
+}
+
+nav ul {
+    padding: 0;
+    list-style-type: none;
+    font-size: 28px;
+    margin-top: 0; /* passei aqui e deixei margin-top: 0 pra que o menu fique colado na imagem do header */    
+}
+
+nav a {
+    text-decoration: none;
+    /* //text-align: center; */
+    color: #fff;
+    display: block;
+    padding: 9px;
+}
+
+nav a:hover {
+    color: #630;
+}
+
+main{
+    /* //margin: 25px; */
+    background: #fff;
+}
+
+h2,nav{
+    font-family: 'Amatic SC', cursive;
+}
+
+h1 {
+    /* color: #AF5705; esse fdp aqui ta fodendo lol */
+    text-align: center;
+    font-size: 58px;
+    /* //color: #BB8D90;
+    border: 1px solid #000000; */
+    color: #630;
+}
+
+h2 {
+    margin-bottom: 0px;
+    font-size: 35px;
+    /*color: #402A03;*/
+    /*color: #72601b;
+    color: #402A03;*/
+    /* color: #a37c19; */
+    /* color: #AF5705; */
+    color: #630;
+}
+
+p {
+    line-height: 25px;
+    text-align: justify;
+    /* color: #391C08; */
+    /* color: #4F2523; */
+}
+
+/* flex styles */
+
+@media screen and (min-width: 768px){
+    nav ul {
+        display: flex;
+        justify-content: space-around; /* não é isso? não é.... */
+    /* to aqui
+    não sei CENSURA SOCORRO est]ap CALANDO MINHAS PAALVRAS
+    censura ehurhaeuor
+    só tem um jeito */
+    }
+
+    nav li {
+        /* //flex: 1 1 0; */
+    }
+}
